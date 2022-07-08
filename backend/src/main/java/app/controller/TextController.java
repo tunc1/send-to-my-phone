@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 
 @RestController
 @RequestMapping("/text")
+@CrossOrigin("*")
 public class TextController
 {
 	private TextService textService;
