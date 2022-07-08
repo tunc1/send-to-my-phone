@@ -9,7 +9,7 @@ public class Text
     @SequenceGenerator(name="Text_SEQUENCE_GENERATOR",sequenceName="Text_SEQUENCE",allocationSize=1)
     @GeneratedValue(strategy=GenerationType.SEQUENCE,generator="Text_SEQUENCE_GENERATOR")
     private Long id;
-    @Column(length=999)
+    @Column(length=9999)
     private String text;
     public Long getId()
     {
